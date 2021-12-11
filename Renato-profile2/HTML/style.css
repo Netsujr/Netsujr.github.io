@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&display=swap');
+@import "components/cards.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(/images/redBg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'BioRhyme', serif !important;
+  font-size: 24px;
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+
+.nav-button-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav-button:hover {
+  color: rgb(139, 139, 139);
+}
+
+.nav-buttons {
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  padding: 0 16px;
+  position: relative;
+  font-size: 20px;
+}
+
+
+.container {
+  width: 750px;
+  margin: 10px auto;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.card-btn {
+  color: rgb(2, 12, 13);
+  background-color: #f9e6e6;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.d-flex a {
+  font-size: 12px;
+}
+
+.card-btn:hover {
+  color: rgb(2, 12, 13);
+  background-color: #f1cacad3;
+  transition: .2s;
+  text-decoration: none;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  opacity: 1;
+  object-fit: cover;
+  margin: 20px;
+  padding: 5px;
+  box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white .list {
+  list-style: none;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.list a {
+  font-size: 40px;
+  text-align: center;
+  word-spacing: 30px;
+}
+
+.card-white {
+  padding: 40px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.header {
+  margin: 20px;
+}
+
+.header li a {
+  color: rgb(0, 0, 66);
+  text-decoration: none;
+}
+
+.header li a:hover {
+  color: rgb(183, 0, 255);
+  transition: 1s;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.icons {
+  font-size: 20px;
+  color: darkgray !important;
+}
