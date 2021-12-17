@@ -45,8 +45,16 @@ body {
 }
 
 p {
-  margin: 30px 0px !important;
-  line-height: 2;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  line-height: 1.7;
+  text-align: start;
+}
+
+hr {
+  border: 1px solid #282828;
+  width: 70%;
+  margin: 0px auto !important;
 }
 
 .card-btn {
