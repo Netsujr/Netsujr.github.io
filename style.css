@@ -127,6 +127,11 @@ img {
   transition: 1s;
 }
 
+.icons {
+  font-size: 20px;
+  color: darkgray !important;
+}
+
 @media (max-width: 960px) {
   .container {
     width: 700px;
@@ -141,9 +146,4 @@ img {
   .container {
     width: 300px;
   }
-}
-
-.icons {
-  font-size: 20px;
-  color: darkgray !important;
 }
